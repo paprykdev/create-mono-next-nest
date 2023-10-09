@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 
 export function Card({
   className,
@@ -18,7 +18,7 @@ export function Card({
       rel="noopener noreferrer"
       target="_blank"
     >
-      <h2>
+      <h2 className="font-bold">
         {title} <span>-&gt;</span>
       </h2>
       <p>{children}</p>
